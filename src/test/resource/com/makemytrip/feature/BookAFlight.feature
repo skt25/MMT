@@ -23,6 +23,7 @@ Then User verifies that the selected option is lowest and fastest
 Scenario: User select the flight the lowest price, fastest and book the same
 Given User view the info of the selected flight
 When User click on radio button of selected flight
+And User counts the number of flights in the filtered list
 And User click on Book button for booking the same flight
 Then User verifies the booking details
 
